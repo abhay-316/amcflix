@@ -1,0 +1,221 @@
+
+body{
+margin:0px;	
+	}
+.container{	
+width:inherit;
+min-height:640px;
+}
+
+.header{
+position:relative;
+width:inherit;	
+height: 100px;
+font-size:24px;
+font-family:"Palatino Linotype";
+background: black;	
+margin:0;
+z-index:1000;
+}
+
+h1
+{
+	margin:0;
+	text-align:center;
+	color:white;
+}
+
+li:hover{
+background-color:green;	
+
+}
+
+.menu{
+	width:inherit;
+	height:36px;
+	position:absolute;
+	top:64px;
+	right:50;
+}
+
+.menu ul li{
+display:inline;
+margin:0px;
+width: 333px;
+text-align:center;
+padding:0px;
+float:left;
+height:36px;
+border:none;
+}
+
+.menu ul{
+margin:0px;	
+padding:0px;
+}
+.menu ul li a{
+text-decoration:none;
+color:white;
+}
+
+.body{
+position:relative;
+height:525px;
+width:inherit;
+background:url(http://s1.picswalls.com/wallpapers/2014/02/25/batman-background_022002834_34.jpg);
+}
+.bdy
+{
+min-height:525px;
+width:inherit;
+background-color: black;
+}
+.row{
+width:inherit;
+height: 375px;
+}
+img{
+margin-left:40px;
+}
+.heading{
+width:inherit;
+height:25px;
+color:white;
+font-size:20px;
+font-weight:bold;	
+}
+
+.label{	
+min-height : 50px;
+text-align:center;
+background: black;
+color:white;
+}
+
+form{
+margin-left:500px;		
+margin-right:500px;
+font-family:inherit;
+font-size:18px;
+font-weight:bold;
+color:white;
+background-color:#CCC;
+text-decoration:none;
+padding-left:10px;
+
+}
+.frm{
+position:fixed;
+top:150px;	
+}
+
+.frm2{
+position:relative;
+top:50px;	
+}
+.btn{
+background-color:#36F;
+color:white;	
+width:80px;
+height:30px;	
+text-align:center;
+margin-left: 125px;
+font-weight:bold;
+
+}
+
+.button {
+    background-color: green;
+    position: relative;
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.input[type=text] {
+    position: left;
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+
+
+
+
+.dropbtn {
+    
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: blue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: blue}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+background-color: grey;
+}
+
+
+div.img {
+    display:block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+   
+    margin-left: 40%;
+    
+   
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
